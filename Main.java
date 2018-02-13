@@ -14,5 +14,12 @@ public class Main{
 		System.out.println("La resta de la variable var1 - var2 = "+(var1-var2));
 		System.out.println("La multiplicacion de la variable var1 * var2 = "+(var1*var2));
 		System.out.println("La division de la variable var1 / var2 = "+(var1/var2));
+
+		int var3 = 100;
+
+		while(var3>0){
+			System.out.println(var3);
+			var3--;
+		}
 	}
 }
